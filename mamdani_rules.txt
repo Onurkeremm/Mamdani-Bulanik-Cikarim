@@ -1,0 +1,3 @@
+IF anchor_ratio=LOW AND trans_range=LOW AND node_density=LOW AND iterations=LOW THEN ale=VERY_HIGH
+IF anchor_ratio=LOW AND trans_range=LOW AND node_density=LOW AND iterations=MEDIUM THEN ale=HIGH
+IF anchor_ratio=HIGH AND trans_range=MEDIUM AND node_density=HIGH AND iterations=HIGH THEN ale=LOW
