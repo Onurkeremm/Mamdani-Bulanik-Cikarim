@@ -34,7 +34,7 @@ Bu proje, Mamdani Bulanık Çıkarım Modeli kullanarak Monte Carlo Simülasyon 
       return np.maximum(np.minimum((x-a)/(b-a), (c-x)/(c-b)), 0)
   ```
 
-- **Gauss (Gaussian)** fonksiyon:  
+- **Gerçek vs Tahmin** grafiği:  
   ![Gauss Üyelik Fonksiyonu](membership_gaussian.png)  
   ```python
   def gaussian_mf(x, mean, sigma):
